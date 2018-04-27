@@ -1,3 +1,4 @@
+# Blackjack-soft21
 require 'sinatra'
 require './config'
 require './lib/blackjack.rb'
