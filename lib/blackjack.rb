@@ -4,7 +4,7 @@ class BlackJack
 		if jugador == ''
 			'ingrese nombre'
 		else
-			'empieza partida'
+			"empieza partida #{jugador}"	
 		end
 
 	end
