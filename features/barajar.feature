@@ -12,7 +12,7 @@ Escenario: el jugador ingresa
 
 Escenario: si jugador da jugar e ingreso nombre diego
 	Dado que entra al juego
-	 Y ingreso el nombre "Diego"
+	Y ingreso el nombre "Diego"
 	Cuando da iniciar
 	Entonces debo ver "empieza partida"
 
@@ -20,3 +20,10 @@ Escenario: si jugador da jugar sin ingresar nombre
 	Dado que entra al juego
 	Cuando da iniciar
 	Entonces debo ver "ingrese nombre"	
+
+Escenario: si jugador da Dar Cartas
+	Dado que entra al juego
+	Y ingreso el nombre "Diego"
+	Y da iniciar
+	Cuando da Dar Cartas
+	Entonces muestreme "carta1" y "carta2"

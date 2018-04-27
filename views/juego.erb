@@ -5,10 +5,8 @@
 </head>
 <body>
 	<h1><%= session["texto"] %></h1>
-	<input type="submit" value="Dar Cartas">
-	<br>
-	<input type="text" name= "Carta1">
-	<input type="text" name= "Carta2">
-	</br>
+	<form method= "POST" action="/cartas">
+		<input type="submit" value="Dar Cartas">
+	</form>
 </body>
 </html>

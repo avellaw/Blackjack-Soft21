@@ -12,3 +12,8 @@ post '/iniciar' do
 	session['texto'] = session['blackjack'].valida(params["Jugador"])
 	erb(:juego)
 end
+
+post '/cartas' do
+session['texto'] = session['blackjack'].asigna
+	erb(:juego)
+end

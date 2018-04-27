@@ -8,4 +8,8 @@ class BlackJack
 		end
 
 	end
+
+	def asigna
+		'Primera mano: 9 - J'
+	end
 end
